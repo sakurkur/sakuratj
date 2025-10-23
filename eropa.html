@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Journal</title>
+</head>
+<style>
+    body{
+        background-color: rgb(208, 182, 247);
+        font-size: medium;
+        font-style: italic;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    a{
+        text-decoration: wavy;
+        text-decoration: underline;
+        text-transform: capitalize;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: medium;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    banner{
+      color: rgb(3, 3, 3);
+      text-align: center;
+      padding: 50px 20px;
+    }
+    banner h1{
+     font-size: 2.8em;
+     margin-bottom: 10px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    banner p{
+        font-size: 1.2em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    /* 🖼️ Card Section */
+    .card-container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      padding: 50px 20px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 10px 16px rgba(85, 83, 83, 0.1);
+      overflow: hidden;
+      width: 300px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card h3 {
+      color: #a3923e;
+      padding: 15px;
+      text-decoration: underline;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+/* Responsive layout */
+    @media (max-width: 768px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+</style>
+<body>
+    <banner>
+        <h1>Europe</h1>
+        <p>Went here for a religious trip. Overall 10/10, but go with a tour if it's your first time!</p>
+    </banner>
+    <a href="journal.html" target="_blank">home</a>
+    &nbsp;
+    <a href="japan.html" target="_blank">japan</a>
+    &nbsp;
+    <a href="indonesia.html" target="_blank">Indonesia</a>
+  <!--Cards Section-->
+<section class="card-container">
+    <div class="card">
+        <a href="spain.html" target="_blank">
+            <img src="Screenshot 2025-10-17 141435.png" alt="Spain">
+            <h3>Spain</h3>
+        </a>
+    </div>
+    <div class="card">
+        <a href="italy.html" target="_blank">
+            <img src="WhatsApp Image 2025-10-17 at 00.56.45.jpeg" alt="Italy">
+            <h3>Italy</h3>
+        </a>
+    </div>
+    <div class="card">
+        <a href="morroco.html" target="_blank">
+            <img src="WhatsApp Image 2025-10-22 at 02.39.46 (1).jpeg" alt="Morroco">
+            <h3>Morroco</h3>
+        </a>
+    </div>
+    <div class="card">
+        <a href="france.html" target="_blank">
+            <img src="Screenshot 2025-10-17 141520.png" alt="France">
+            <h3>France</h3>
+        </a>
+    </div>
+    <div class="card">
+        <a href="portugal.html" target="_blank">
+            <img src="WhatsApp Image 2025-10-22 at 02.39.52.jpeg" alt="Portugal">
+            <h3>Portugal</h3>
+        </a>
+    </div>
+    <div class="card">
+        <a href="vatican.html" target="_blank">
+            <img src="Screenshot 2025-10-17 141626.png" alt="Vatican">
+            <h3>Vatican</h3>
+        </a>
+    </div>
+</section>
+</body>
+</html>
